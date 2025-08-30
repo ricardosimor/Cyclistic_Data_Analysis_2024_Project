@@ -1,0 +1,2401 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e227a555fd787950980428f903a5e992 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e227a555fd787950980428f903a5e992" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e227a555fd787950980428f903a5e992 = L.map(
+                "map_e227a555fd787950980428f903a5e992",
+                {
+                    center: [41.889177, -87.638506],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c2edf041e377a7045ed7b39d8ba5eb6c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c2edf041e377a7045ed7b39d8ba5eb6c.addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+            var circle_marker_dea51942271139078b0be53dfd0614f6 = L.circleMarker(
+                [41.88917683258, -87.6385057718],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0008, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_061c6d82b09fedb8b15dc202949474aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09c8c62de11970fb8c12c8ebe8d2e54b = $(`<div id="html_09c8c62de11970fb8c12c8ebe8d2e54b" style="width: 100.0%; height: 100.0%;">Kingsbury St & Kinzie St: 20004 rides</div>`)[0];
+                popup_061c6d82b09fedb8b15dc202949474aa.setContent(html_09c8c62de11970fb8c12c8ebe8d2e54b);
+            
+        
+
+        circle_marker_dea51942271139078b0be53dfd0614f6.bindPopup(popup_061c6d82b09fedb8b15dc202949474aa)
+        ;
+
+        
+    
+    
+            var circle_marker_6d5b5e0e78de09336add7ca3c132625f = L.circleMarker(
+                [41.88338, -87.64117],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5134, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_a53bcc4d3cbaa5a1312c6e477e8e7ec9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_223b22960317bc1c50486adfff56a1d7 = $(`<div id="html_223b22960317bc1c50486adfff56a1d7" style="width: 100.0%; height: 100.0%;">Clinton St & Washington Blvd: 17567 rides</div>`)[0];
+                popup_a53bcc4d3cbaa5a1312c6e477e8e7ec9.setContent(html_223b22960317bc1c50486adfff56a1d7);
+            
+        
+
+        circle_marker_6d5b5e0e78de09336add7ca3c132625f.bindPopup(popup_a53bcc4d3cbaa5a1312c6e477e8e7ec9)
+        ;
+
+        
+    
+    
+            var circle_marker_600c9a03d01b324d462d12afa2218ef3 = L.circleMarker(
+                [41.902973, -87.63128],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4002, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_7d276b2a2a9b049e2bb6487983b710d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_137883c503630a660833b56a2c54d3b2 = $(`<div id="html_137883c503630a660833b56a2c54d3b2" style="width: 100.0%; height: 100.0%;">Clark St & Elm St: 17001 rides</div>`)[0];
+                popup_7d276b2a2a9b049e2bb6487983b710d5.setContent(html_137883c503630a660833b56a2c54d3b2);
+            
+        
+
+        circle_marker_600c9a03d01b324d462d12afa2218ef3.bindPopup(popup_7d276b2a2a9b049e2bb6487983b710d5)
+        ;
+
+        
+    
+    
+            var circle_marker_945e1997378b415222ade80eb821b652 = L.circleMarker(
+                [41.882751965685614, -87.64119029045105],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2986, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_e71b9078c20233939ff68cc1a4028b8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c2421d7f8cbcba2c518c0993b5bd7e0 = $(`<div id="html_4c2421d7f8cbcba2c518c0993b5bd7e0" style="width: 100.0%; height: 100.0%;">Clinton St & Madison St: 16493 rides</div>`)[0];
+                popup_e71b9078c20233939ff68cc1a4028b8c.setContent(html_4c2421d7f8cbcba2c518c0993b5bd7e0);
+            
+        
+
+        circle_marker_945e1997378b415222ade80eb821b652.bindPopup(popup_e71b9078c20233939ff68cc1a4028b8c)
+        ;
+
+        
+    
+    
+            var circle_marker_4d1475d00dea56800686358accb2935b = L.circleMarker(
+                [41.791478, -87.599861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.9406, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_2730dbdaac91af7679339f933827da3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07efb497acce4c1d6efabf607509a926 = $(`<div id="html_07efb497acce4c1d6efabf607509a926" style="width: 100.0%; height: 100.0%;">University Ave & 57th St: 14703 rides</div>`)[0];
+                popup_2730dbdaac91af7679339f933827da3e.setContent(html_07efb497acce4c1d6efabf607509a926);
+            
+        
+
+        circle_marker_4d1475d00dea56800686358accb2935b.bindPopup(popup_2730dbdaac91af7679339f933827da3e)
+        ;
+
+        
+    
+    
+            var circle_marker_ef0e29726c05b7b8db1ee5c2243e56ee = L.circleMarker(
+                [41.912133, -87.634656],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7838, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_efd6b1d87aa11c0d5e519db44fda98c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_710fdbe3b067b9db0c4788f20d99fc06 = $(`<div id="html_710fdbe3b067b9db0c4788f20d99fc06" style="width: 100.0%; height: 100.0%;">Wells St & Concord Ln: 13919 rides</div>`)[0];
+                popup_efd6b1d87aa11c0d5e519db44fda98c8.setContent(html_710fdbe3b067b9db0c4788f20d99fc06);
+            
+        
+
+        circle_marker_ef0e29726c05b7b8db1ee5c2243e56ee.bindPopup(popup_efd6b1d87aa11c0d5e519db44fda98c8)
+        ;
+
+        
+    
+    
+            var circle_marker_e4f63fc3f235832a79ed515fd3b40017 = L.circleMarker(
+                [41.87831661183069, -87.64098107814789],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.744, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_7be1fec0ef8ec036bc8414d200b44e53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ed41fdcb520212165366e579b0b739a = $(`<div id="html_1ed41fdcb520212165366e579b0b739a" style="width: 100.0%; height: 100.0%;">Clinton St & Jackson Blvd: 13720 rides</div>`)[0];
+                popup_7be1fec0ef8ec036bc8414d200b44e53.setContent(html_1ed41fdcb520212165366e579b0b739a);
+            
+        
+
+        circle_marker_e4f63fc3f235832a79ed515fd3b40017.bindPopup(popup_7be1fec0ef8ec036bc8414d200b44e53)
+        ;
+
+        
+    
+    
+            var circle_marker_c2f039fbd8e13e93ab9112c09cdc2395 = L.circleMarker(
+                [41.903222, -87.634324],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7062, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_acb6f784e04bf6690408f4f63d1c1faa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed94f28120716b17e6e4492762756fd7 = $(`<div id="html_ed94f28120716b17e6e4492762756fd7" style="width: 100.0%; height: 100.0%;">Wells St & Elm St: 13531 rides</div>`)[0];
+                popup_acb6f784e04bf6690408f4f63d1c1faa.setContent(html_ed94f28120716b17e6e4492762756fd7);
+            
+        
+
+        circle_marker_c2f039fbd8e13e93ab9112c09cdc2395.bindPopup(popup_acb6f784e04bf6690408f4f63d1c1faa)
+        ;
+
+        
+    
+    
+            var circle_marker_04288dc8e0bf00ea71be9164773bea76 = L.circleMarker(
+                [41.893992, -87.629318],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6698, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_72039908d9420c54541400d79610a8f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84bc2ccecd63b135c4836428375687b8 = $(`<div id="html_84bc2ccecd63b135c4836428375687b8" style="width: 100.0%; height: 100.0%;">Dearborn St & Erie St: 13349 rides</div>`)[0];
+                popup_72039908d9420c54541400d79610a8f9.setContent(html_84bc2ccecd63b135c4836428375687b8);
+            
+        
+
+        circle_marker_04288dc8e0bf00ea71be9164773bea76.bindPopup(popup_72039908d9420c54541400d79610a8f9)
+        ;
+
+        
+    
+    
+            var circle_marker_25e438b16388fb863759057ef554e75f = L.circleMarker(
+                [41.882409, -87.639767],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6248, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_eb5dd90625c62bc79091a707039d310b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3d5278c63756daaf98e783bf0211e3a = $(`<div id="html_e3d5278c63756daaf98e783bf0211e3a" style="width: 100.0%; height: 100.0%;">Canal St & Madison St: 13124 rides</div>`)[0];
+                popup_eb5dd90625c62bc79091a707039d310b.setContent(html_e3d5278c63756daaf98e783bf0211e3a);
+            
+        
+
+        circle_marker_25e438b16388fb863759057ef554e75f.bindPopup(popup_eb5dd90625c62bc79091a707039d310b)
+        ;
+
+        
+    
+    
+            var circle_marker_7e133231e4aede812232cf7716d630f7 = L.circleMarker(
+                [41.78509714636, -87.6010727606],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6188, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_da545575e70c6afc52980b6ca283c50d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59740eea495cff5199036105bb965ecb = $(`<div id="html_59740eea495cff5199036105bb965ecb" style="width: 100.0%; height: 100.0%;">Ellis Ave & 60th St: 13094 rides</div>`)[0];
+                popup_da545575e70c6afc52980b6ca283c50d.setContent(html_59740eea495cff5199036105bb965ecb);
+            
+        
+
+        circle_marker_7e133231e4aede812232cf7716d630f7.bindPopup(popup_da545575e70c6afc52980b6ca283c50d)
+        ;
+
+        
+    
+    
+            var circle_marker_798de6d2da08736d2a952a435b3ce009 = L.circleMarker(
+                [41.89661720040753, -87.62857854366302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.53, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_f0710a905a7ca2d5df36523f45f2e03a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3df4b58a5a6aff3f7d4471ff5b0d6b59 = $(`<div id="html_3df4b58a5a6aff3f7d4471ff5b0d6b59" style="width: 100.0%; height: 100.0%;">State St & Chicago Ave: 12650 rides</div>`)[0];
+                popup_f0710a905a7ca2d5df36523f45f2e03a.setContent(html_3df4b58a5a6aff3f7d4471ff5b0d6b59);
+            
+        
+
+        circle_marker_798de6d2da08736d2a952a435b3ce009.bindPopup(popup_f0710a905a7ca2d5df36523f45f2e03a)
+        ;
+
+        
+    
+    
+            var circle_marker_29d3710ba8ed3ef75a1a10303de0709d = L.circleMarker(
+                [41.911722, -87.626804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.3342, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_ae941cd590f1caea1ed3f363b663c021 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e69dbe2b8ef524119d0cc5475f16082 = $(`<div id="html_9e69dbe2b8ef524119d0cc5475f16082" style="width: 100.0%; height: 100.0%;">DuSable Lake Shore Dr & North Blvd: 11671 rides</div>`)[0];
+                popup_ae941cd590f1caea1ed3f363b663c021.setContent(html_9e69dbe2b8ef524119d0cc5475f16082);
+            
+        
+
+        circle_marker_29d3710ba8ed3ef75a1a10303de0709d.bindPopup(popup_ae941cd590f1caea1ed3f363b663c021)
+        ;
+
+        
+    
+    
+            var circle_marker_f6ee0f79b50a2c0ed3dbecc6198eb8ac = L.circleMarker(
+                [41.79430062054, -87.6014497734],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2952, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_44dcf1a485acd023ad1aaafc9a179fbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52447d88f78f84420d757cea1a7fd6f5 = $(`<div id="html_52447d88f78f84420d757cea1a7fd6f5" style="width: 100.0%; height: 100.0%;">Ellis Ave & 55th St: 11476 rides</div>`)[0];
+                popup_44dcf1a485acd023ad1aaafc9a179fbe.setContent(html_52447d88f78f84420d757cea1a7fd6f5);
+            
+        
+
+        circle_marker_f6ee0f79b50a2c0ed3dbecc6198eb8ac.bindPopup(popup_44dcf1a485acd023ad1aaafc9a179fbe)
+        ;
+
+        
+    
+    
+            var circle_marker_82974a996f4bebbc6de258882c665458 = L.circleMarker(
+                [41.93758231600629, -87.6440978050232],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.279, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_e17f51a2ac915397070bdc17d502c21d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97697d21fdc4f468b8538bff015e2100 = $(`<div id="html_97697d21fdc4f468b8538bff015e2100" style="width: 100.0%; height: 100.0%;">Broadway & Barry Ave: 11395 rides</div>`)[0];
+                popup_e17f51a2ac915397070bdc17d502c21d.setContent(html_97697d21fdc4f468b8538bff015e2100);
+            
+        
+
+        circle_marker_82974a996f4bebbc6de258882c665458.bindPopup(popup_e17f51a2ac915397070bdc17d502c21d)
+        ;
+
+        
+    
+    
+            var circle_marker_8703d0aacfdebcc8a28cd70f9602c3bf = L.circleMarker(
+                [41.871737, -87.65103],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.274, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_2515cd547630d1bc4f1a4f848d66a280 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0016d38ed5fc3ee358daa221a52212e4 = $(`<div id="html_0016d38ed5fc3ee358daa221a52212e4" style="width: 100.0%; height: 100.0%;">Morgan St & Polk St: 11370 rides</div>`)[0];
+                popup_2515cd547630d1bc4f1a4f848d66a280.setContent(html_0016d38ed5fc3ee358daa221a52212e4);
+            
+        
+
+        circle_marker_8703d0aacfdebcc8a28cd70f9602c3bf.bindPopup(popup_2515cd547630d1bc4f1a4f848d66a280)
+        ;
+
+        
+    
+    
+            var circle_marker_6fe9e4fc4b613756f1219c9435d2d427 = L.circleMarker(
+                [41.897764, -87.642884],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2516, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_aeee94b4e53370bb4d340bce016b8af7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e3a149cf9c5b80be5a1bb789eb7b24c = $(`<div id="html_6e3a149cf9c5b80be5a1bb789eb7b24c" style="width: 100.0%; height: 100.0%;">Larrabee St & Kingsbury St: 11258 rides</div>`)[0];
+                popup_aeee94b4e53370bb4d340bce016b8af7.setContent(html_6e3a149cf9c5b80be5a1bb789eb7b24c);
+            
+        
+
+        circle_marker_6fe9e4fc4b613756f1219c9435d2d427.bindPopup(popup_aeee94b4e53370bb4d340bce016b8af7)
+        ;
+
+        
+    
+    
+            var circle_marker_150a526e62ccc9cd14c6dee813b32da5 = L.circleMarker(
+                [41.87222873224032, -87.66136385500431],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2456, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_fb4c2d15652b967c8b33ab305cdfb37d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_778a450bff0c2b087cf39d221f005891 = $(`<div id="html_778a450bff0c2b087cf39d221f005891" style="width: 100.0%; height: 100.0%;">Loomis St & Lexington St: 11228 rides</div>`)[0];
+                popup_fb4c2d15652b967c8b33ab305cdfb37d.setContent(html_778a450bff0c2b087cf39d221f005891);
+            
+        
+
+        circle_marker_150a526e62ccc9cd14c6dee813b32da5.bindPopup(popup_fb4c2d15652b967c8b33ab305cdfb37d)
+        ;
+
+        
+    
+    
+            var circle_marker_5ab2e27387c3bebf5ccb14943d05881a = L.circleMarker(
+                [41.940231918108594, -87.65294373035431],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2028, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_bad0cbfb03a3e90be02d91ee3911deaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eca16fa83b9dbbe9e9f5cba6614a5ac6 = $(`<div id="html_eca16fa83b9dbbe9e9f5cba6614a5ac6" style="width: 100.0%; height: 100.0%;">Wilton Ave & Belmont Ave: 11014 rides</div>`)[0];
+                popup_bad0cbfb03a3e90be02d91ee3911deaf.setContent(html_eca16fa83b9dbbe9e9f5cba6614a5ac6);
+            
+        
+
+        circle_marker_5ab2e27387c3bebf5ccb14943d05881a.bindPopup(popup_bad0cbfb03a3e90be02d91ee3911deaf)
+        ;
+
+        
+    
+    
+            var circle_marker_159567468ac3d2702b7a80da26f2cd1a = L.circleMarker(
+                [41.879255, -87.639904],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1928, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_83db3250bfb9bc0687c0d369cf07a577 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_109b66e5419d149b8ed7de96fc35e2ae = $(`<div id="html_109b66e5419d149b8ed7de96fc35e2ae" style="width: 100.0%; height: 100.0%;">Canal St & Adams St: 10964 rides</div>`)[0];
+                popup_83db3250bfb9bc0687c0d369cf07a577.setContent(html_109b66e5419d149b8ed7de96fc35e2ae);
+            
+        
+
+        circle_marker_159567468ac3d2702b7a80da26f2cd1a.bindPopup(popup_83db3250bfb9bc0687c0d369cf07a577)
+        ;
+
+        
+    
+    
+            var circle_marker_d3962a44a65e3a30d54a446d92472d17 = L.circleMarker(
+                [41.884241, -87.629634],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1926, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_c95333e9965bc0326aa76c60f5effbf4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8441801a5e22d388be049d157ee2b04 = $(`<div id="html_b8441801a5e22d388be049d157ee2b04" style="width: 100.0%; height: 100.0%;">Daley Center Plaza: 10963 rides</div>`)[0];
+                popup_c95333e9965bc0326aa76c60f5effbf4.setContent(html_b8441801a5e22d388be049d157ee2b04);
+            
+        
+
+        circle_marker_d3962a44a65e3a30d54a446d92472d17.bindPopup(popup_c95333e9965bc0326aa76c60f5effbf4)
+        ;
+
+        
+    
+    
+            var circle_marker_c12b7411cebc16f755280e8b465c7fb1 = L.circleMarker(
+                [41.888716036, -87.6444478533],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1822, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_85b89db4650e01aa7156a8b9873edeb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b2914a1c0d75f4947ac2773f0605899 = $(`<div id="html_4b2914a1c0d75f4947ac2773f0605899" style="width: 100.0%; height: 100.0%;">Desplaines St & Kinzie St: 10911 rides</div>`)[0];
+                popup_85b89db4650e01aa7156a8b9873edeb3.setContent(html_4b2914a1c0d75f4947ac2773f0605899);
+            
+        
+
+        circle_marker_c12b7411cebc16f755280e8b465c7fb1.bindPopup(popup_85b89db4650e01aa7156a8b9873edeb3)
+        ;
+
+        
+    
+    
+            var circle_marker_6d52ac8635478cbd53ec2f55ebc8fc33 = L.circleMarker(
+                [41.894722, -87.634362],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1518, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_71059189062ea03713a794d7368221ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50fbc4eb8792a8da259f56dd04a25bd6 = $(`<div id="html_50fbc4eb8792a8da259f56dd04a25bd6" style="width: 100.0%; height: 100.0%;">Wells St & Huron St: 10759 rides</div>`)[0];
+                popup_71059189062ea03713a794d7368221ac.setContent(html_50fbc4eb8792a8da259f56dd04a25bd6);
+            
+        
+
+        circle_marker_6d52ac8635478cbd53ec2f55ebc8fc33.bindPopup(popup_71059189062ea03713a794d7368221ac)
+        ;
+
+        
+    
+    
+            var circle_marker_b6cca7ce6ef2e866e905a66f17758c8b = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1306, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_debe286db0a3a4bdb77e9ecbf94b0374 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac074c378e90841dd9018edda582203e = $(`<div id="html_ac074c378e90841dd9018edda582203e" style="width: 100.0%; height: 100.0%;">Streeter Dr & Grand Ave: 10653 rides</div>`)[0];
+                popup_debe286db0a3a4bdb77e9ecbf94b0374.setContent(html_ac074c378e90841dd9018edda582203e);
+            
+        
+
+        circle_marker_b6cca7ce6ef2e866e905a66f17758c8b.bindPopup(popup_debe286db0a3a4bdb77e9ecbf94b0374)
+        ;
+
+        
+    
+    
+            var circle_marker_336b5626284bc26731b477e1c6b6a75e = L.circleMarker(
+                [41.867888, -87.623041],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1164, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_42db8c6a7ead00601449a556b5c7800a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba2f1023d62912c01c7f805dd6adeee3 = $(`<div id="html_ba2f1023d62912c01c7f805dd6adeee3" style="width: 100.0%; height: 100.0%;">Indiana Ave & Roosevelt Rd: 10582 rides</div>`)[0];
+                popup_42db8c6a7ead00601449a556b5c7800a.setContent(html_ba2f1023d62912c01c7f805dd6adeee3);
+            
+        
+
+        circle_marker_336b5626284bc26731b477e1c6b6a75e.bindPopup(popup_42db8c6a7ead00601449a556b5c7800a)
+        ;
+
+        
+    
+    
+            var circle_marker_fb149b20f1c96b2baff425bec0d9ee52 = L.circleMarker(
+                [41.834734, -87.625813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1138, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_eb4e1d7343c3f807673c28e39f295aa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c5c8ac315d4d3a032a73385168bb2ff = $(`<div id="html_2c5c8ac315d4d3a032a73385168bb2ff" style="width: 100.0%; height: 100.0%;">State St & 33rd St: 10569 rides</div>`)[0];
+                popup_eb4e1d7343c3f807673c28e39f295aa1.setContent(html_2c5c8ac315d4d3a032a73385168bb2ff);
+            
+        
+
+        circle_marker_fb149b20f1c96b2baff425bec0d9ee52.bindPopup(popup_eb4e1d7343c3f807673c28e39f295aa1)
+        ;
+
+        
+    
+    
+            var circle_marker_ba3301dce83330e10bb3bf44a4fe0c21 = L.circleMarker(
+                [41.889906, -87.634266],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1056, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_8e983902173deef0a3a00aad7ea27299 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc3fea7066b03ffd960dd4af7b064964 = $(`<div id="html_bc3fea7066b03ffd960dd4af7b064964" style="width: 100.0%; height: 100.0%;">Wells St & Hubbard St: 10528 rides</div>`)[0];
+                popup_8e983902173deef0a3a00aad7ea27299.setContent(html_bc3fea7066b03ffd960dd4af7b064964);
+            
+        
+
+        circle_marker_ba3301dce83330e10bb3bf44a4fe0c21.bindPopup(popup_8e983902173deef0a3a00aad7ea27299)
+        ;
+
+        
+    
+    
+            var circle_marker_d2296f7373f9e6752dc4a42d453858fe = L.circleMarker(
+                [41.918306, -87.636282],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0948, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_c5588ca2a2d708d1bcd20355103ba226 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fca064947d964eac88c30e17281001fe = $(`<div id="html_fca064947d964eac88c30e17281001fe" style="width: 100.0%; height: 100.0%;">Clark St & Armitage Ave: 10474 rides</div>`)[0];
+                popup_c5588ca2a2d708d1bcd20355103ba226.setContent(html_fca064947d964eac88c30e17281001fe);
+            
+        
+
+        circle_marker_d2296f7373f9e6752dc4a42d453858fe.bindPopup(popup_c5588ca2a2d708d1bcd20355103ba226)
+        ;
+
+        
+    
+    
+            var circle_marker_e6a6a244145b37c48631cd35d10353ca = L.circleMarker(
+                [41.898969, -87.629912],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.071, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_ff989db56121913988d4d6008622cc20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efaedf34ae5d4e25e68bd1ecf7ff70c5 = $(`<div id="html_efaedf34ae5d4e25e68bd1ecf7ff70c5" style="width: 100.0%; height: 100.0%;">Dearborn Pkwy & Delaware Pl: 10355 rides</div>`)[0];
+                popup_ff989db56121913988d4d6008622cc20.setContent(html_efaedf34ae5d4e25e68bd1ecf7ff70c5);
+            
+        
+
+        circle_marker_e6a6a244145b37c48631cd35d10353ca.bindPopup(popup_ff989db56121913988d4d6008622cc20)
+        ;
+
+        
+    
+    
+            var circle_marker_af92dd7501d78312b3efae35376da384 = L.circleMarker(
+                [41.891466, -87.626761],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0246, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_c0453c5713ea9eaa37b08ab6b44a245d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d780bca719236fad56528e3c8fe8d5e = $(`<div id="html_0d780bca719236fad56528e3c8fe8d5e" style="width: 100.0%; height: 100.0%;">Wabash Ave & Grand Ave: 10123 rides</div>`)[0];
+                popup_c0453c5713ea9eaa37b08ab6b44a245d.setContent(html_0d780bca719236fad56528e3c8fe8d5e);
+            
+        
+
+        circle_marker_af92dd7501d78312b3efae35376da384.bindPopup(popup_c0453c5713ea9eaa37b08ab6b44a245d)
+        ;
+
+        
+    
+    
+            var circle_marker_77235f2074e6579a8d8c684560fefc78 = L.circleMarker(
+                [41.885637, -87.641823],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0214, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_d2485026d569954d4cb77b97d512af61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25c28da81efec31acf0e130a4f360f6f = $(`<div id="html_25c28da81efec31acf0e130a4f360f6f" style="width: 100.0%; height: 100.0%;">Clinton St & Lake St: 10107 rides</div>`)[0];
+                popup_d2485026d569954d4cb77b97d512af61.setContent(html_25c28da81efec31acf0e130a4f360f6f);
+            
+        
+
+        circle_marker_77235f2074e6579a8d8c684560fefc78.bindPopup(popup_d2485026d569954d4cb77b97d512af61)
+        ;
+
+        
+    
+    
+            var circle_marker_ef10916f3babbf8fc71ffc4c5e1a2a13 = L.circleMarker(
+                [41.867227, -87.625961],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0134, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_2a42810a15c3c1590713f7e00c84633d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef6f1c8578cb8d732c42b4d966bcb06f = $(`<div id="html_ef6f1c8578cb8d732c42b4d966bcb06f" style="width: 100.0%; height: 100.0%;">Wabash Ave & Roosevelt Rd: 10067 rides</div>`)[0];
+                popup_2a42810a15c3c1590713f7e00c84633d.setContent(html_ef6f1c8578cb8d732c42b4d966bcb06f);
+            
+        
+
+        circle_marker_ef10916f3babbf8fc71ffc4c5e1a2a13.bindPopup(popup_2a42810a15c3c1590713f7e00c84633d)
+        ;
+
+        
+    
+    
+            var circle_marker_1731e3d5370300393381c1ed49da203d = L.circleMarker(
+                [41.88185932803823, -87.64926373958588],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9684, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_c986faad8d218c4343d5b6d51111cf2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e32e095795ee6f76b0ea53acc072d676 = $(`<div id="html_e32e095795ee6f76b0ea53acc072d676" style="width: 100.0%; height: 100.0%;">Green St & Madison St: 9842 rides</div>`)[0];
+                popup_c986faad8d218c4343d5b6d51111cf2d.setContent(html_e32e095795ee6f76b0ea53acc072d676);
+            
+        
+
+        circle_marker_1731e3d5370300393381c1ed49da203d.bindPopup(popup_c986faad8d218c4343d5b6d51111cf2d)
+        ;
+
+        
+    
+    
+            var circle_marker_ab0b64b4ee73eb5bf0c67008d18fbab9 = L.circleMarker(
+                [41.915689, -87.6346],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9568, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_7bbad2b44eca75fbf2d219b09ae911a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f43e4b72e4636e7ebb86b1000603972 = $(`<div id="html_9f43e4b72e4636e7ebb86b1000603972" style="width: 100.0%; height: 100.0%;">Clark St & Lincoln Ave: 9784 rides</div>`)[0];
+                popup_7bbad2b44eca75fbf2d219b09ae911a8.setContent(html_9f43e4b72e4636e7ebb86b1000603972);
+            
+        
+
+        circle_marker_ab0b64b4ee73eb5bf0c67008d18fbab9.bindPopup(popup_7bbad2b44eca75fbf2d219b09ae911a8)
+        ;
+
+        
+    
+    
+            var circle_marker_a7b2d3d1a15b2991dc1ecbe2968da494 = L.circleMarker(
+                [41.90096039, -87.62377664],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9168, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_6cda78e02dce67dcbd0274b368f87d80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34d837aea3ad8d2db9e1e8a9a3f1856f = $(`<div id="html_34d837aea3ad8d2db9e1e8a9a3f1856f" style="width: 100.0%; height: 100.0%;">Michigan Ave & Oak St: 9584 rides</div>`)[0];
+                popup_6cda78e02dce67dcbd0274b368f87d80.setContent(html_34d837aea3ad8d2db9e1e8a9a3f1856f);
+            
+        
+
+        circle_marker_a7b2d3d1a15b2991dc1ecbe2968da494.bindPopup(popup_6cda78e02dce67dcbd0274b368f87d80)
+        ;
+
+        
+    
+    
+            var circle_marker_a9599007205e4ecd1ae68c813072cd68 = L.circleMarker(
+                [41.909668, -87.648128],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9094, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_aec540a8b29683506632ff4b4f62bd29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3c1ab2e7c26a047b3fdb82ce134c068 = $(`<div id="html_a3c1ab2e7c26a047b3fdb82ce134c068" style="width: 100.0%; height: 100.0%;">Halsted St & Clybourn Ave: 9547 rides</div>`)[0];
+                popup_aec540a8b29683506632ff4b4f62bd29.setContent(html_a3c1ab2e7c26a047b3fdb82ce134c068);
+            
+        
+
+        circle_marker_a9599007205e4ecd1ae68c813072cd68.bindPopup(popup_aec540a8b29683506632ff4b4f62bd29)
+        ;
+
+        
+    
+    
+            var circle_marker_634f144185c2221199246b61db1d416c = L.circleMarker(
+                [41.87184, -87.64664],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9056, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_478b13c92bd0b378e74f57c9b8629f2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a8c6291f2f34db1fcf2b8591845304c = $(`<div id="html_9a8c6291f2f34db1fcf2b8591845304c" style="width: 100.0%; height: 100.0%;">Halsted St & Polk St: 9528 rides</div>`)[0];
+                popup_478b13c92bd0b378e74f57c9b8629f2a.setContent(html_9a8c6291f2f34db1fcf2b8591845304c);
+            
+        
+
+        circle_marker_634f144185c2221199246b61db1d416c.bindPopup(popup_478b13c92bd0b378e74f57c9b8629f2a)
+        ;
+
+        
+    
+    
+            var circle_marker_0c9fb0f0e301221a73d49e68c6648492 = L.circleMarker(
+                [41.8839840647265, -87.6246839761734],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.886, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_33be76a42682629155ff882b1cae4915 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_967c8b9ca6aa278814ab11f2673a1069 = $(`<div id="html_967c8b9ca6aa278814ab11f2673a1069" style="width: 100.0%; height: 100.0%;">Michigan Ave & Washington St: 9430 rides</div>`)[0];
+                popup_33be76a42682629155ff882b1cae4915.setContent(html_967c8b9ca6aa278814ab11f2673a1069);
+            
+        
+
+        circle_marker_0c9fb0f0e301221a73d49e68c6648492.bindPopup(popup_33be76a42682629155ff882b1cae4915)
+        ;
+
+        
+    
+    
+            var circle_marker_09394f6939cf58b177a55ff7795f2332 = L.circleMarker(
+                [41.949074, -87.648636],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.885, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_26e6040614a686ea79eba3a6097eee2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f0db54947c14d735d85a325429d2b1d = $(`<div id="html_3f0db54947c14d735d85a325429d2b1d" style="width: 100.0%; height: 100.0%;">Broadway & Waveland Ave: 9425 rides</div>`)[0];
+                popup_26e6040614a686ea79eba3a6097eee2b.setContent(html_3f0db54947c14d735d85a325429d2b1d);
+            
+        
+
+        circle_marker_09394f6939cf58b177a55ff7795f2332.bindPopup(popup_26e6040614a686ea79eba3a6097eee2b)
+        ;
+
+        
+    
+    
+            var circle_marker_ddd1bc58cd6ab0418e7b2f6279b71258 = L.circleMarker(
+                [41.929546, -87.643118],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8784, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_2fbb2b024c630a48b18349c2345972d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1998a9d95ce781c9b55c7db925f56ef = $(`<div id="html_e1998a9d95ce781c9b55c7db925f56ef" style="width: 100.0%; height: 100.0%;">Clark St & Wrightwood Ave: 9392 rides</div>`)[0];
+                popup_2fbb2b024c630a48b18349c2345972d9.setContent(html_e1998a9d95ce781c9b55c7db925f56ef);
+            
+        
+
+        circle_marker_ddd1bc58cd6ab0418e7b2f6279b71258.bindPopup(popup_2fbb2b024c630a48b18349c2345972d9)
+        ;
+
+        
+    
+    
+            var circle_marker_0076d1d4fc32fdeb412b3eb69c6b6c82 = L.circleMarker(
+                [41.890762, -87.631697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8772, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_05bf17f29d03d2f6f1ff4dcc4c365cd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3e3b4dbac986d3a9c94fa67fbe57fd7 = $(`<div id="html_f3e3b4dbac986d3a9c94fa67fbe57fd7" style="width: 100.0%; height: 100.0%;">LaSalle St & Illinois St: 9386 rides</div>`)[0];
+                popup_05bf17f29d03d2f6f1ff4dcc4c365cd1.setContent(html_f3e3b4dbac986d3a9c94fa67fbe57fd7);
+            
+        
+
+        circle_marker_0076d1d4fc32fdeb412b3eb69c6b6c82.bindPopup(popup_05bf17f29d03d2f6f1ff4dcc4c365cd1)
+        ;
+
+        
+    
+    
+            var circle_marker_9d587ed67b2354c2196b2f90ae7a0f6d = L.circleMarker(
+                [41.926277, -87.630834],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8692, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_5e0fb027795c065ea04416a820c2aedd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e23a01e075004437c4176682ab43548 = $(`<div id="html_4e23a01e075004437c4176682ab43548" style="width: 100.0%; height: 100.0%;">Theater on the Lake: 9346 rides</div>`)[0];
+                popup_5e0fb027795c065ea04416a820c2aedd.setContent(html_4e23a01e075004437c4176682ab43548);
+            
+        
+
+        circle_marker_9d587ed67b2354c2196b2f90ae7a0f6d.bindPopup(popup_5e0fb027795c065ea04416a820c2aedd)
+        ;
+
+        
+    
+    
+            var circle_marker_a4e40b2d6339483dc6b3ad9422327445 = L.circleMarker(
+                [41.90345, -87.667747],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8548, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_52927ec6f8ddbe166c4c7fbffe537572 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34b450b9a4523f424aa7937684462119 = $(`<div id="html_34b450b9a4523f424aa7937684462119" style="width: 100.0%; height: 100.0%;">Ashland Ave & Division St: 9274 rides</div>`)[0];
+                popup_52927ec6f8ddbe166c4c7fbffe537572.setContent(html_34b450b9a4523f424aa7937684462119);
+            
+        
+
+        circle_marker_a4e40b2d6339483dc6b3ad9422327445.bindPopup(popup_52927ec6f8ddbe166c4c7fbffe537572)
+        ;
+
+        
+    
+    
+            var circle_marker_6604d0524594b6f7287b15174e206ed0 = L.circleMarker(
+                [41.881319815, -87.6295209193],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8482, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_d35909786f349543c9e1c6bed996109c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a88eb3d58371e9e111c3d7636f72c7be = $(`<div id="html_a88eb3d58371e9e111c3d7636f72c7be" style="width: 100.0%; height: 100.0%;">Dearborn St & Monroe St: 9241 rides</div>`)[0];
+                popup_d35909786f349543c9e1c6bed996109c.setContent(html_a88eb3d58371e9e111c3d7636f72c7be);
+            
+        
+
+        circle_marker_6604d0524594b6f7287b15174e206ed0.bindPopup(popup_d35909786f349543c9e1c6bed996109c)
+        ;
+
+        
+    
+    
+            var circle_marker_4d2c2291c5c2a6921f5ecd3a41d1fe86 = L.circleMarker(
+                [41.886871, -87.648089],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8374, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_6132496e59e76fe045939cc94ec75467 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f51edadbca8851579ce1ca268957a7fb = $(`<div id="html_f51edadbca8851579ce1ca268957a7fb" style="width: 100.0%; height: 100.0%;">Halsted St & Fulton St: 9187 rides</div>`)[0];
+                popup_6132496e59e76fe045939cc94ec75467.setContent(html_f51edadbca8851579ce1ca268957a7fb);
+            
+        
+
+        circle_marker_4d2c2291c5c2a6921f5ecd3a41d1fe86.bindPopup(popup_6132496e59e76fe045939cc94ec75467)
+        ;
+
+        
+    
+    
+            var circle_marker_9297deb71ddb05694a50b45218874b02 = L.circleMarker(
+                [41.945529, -87.646439],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8158, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_2e3fcf9e72084e32391b8b56e31136f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4197b48fe1a95bf4b001cf482525b61d = $(`<div id="html_4197b48fe1a95bf4b001cf482525b61d" style="width: 100.0%; height: 100.0%;">Broadway & Cornelia Ave: 9079 rides</div>`)[0];
+                popup_2e3fcf9e72084e32391b8b56e31136f5.setContent(html_4197b48fe1a95bf4b001cf482525b61d);
+            
+        
+
+        circle_marker_9297deb71ddb05694a50b45218874b02.bindPopup(popup_2e3fcf9e72084e32391b8b56e31136f5)
+        ;
+
+        
+    
+    
+            var circle_marker_7aaf9db2f0625e34213d5eb66ecf93c8 = L.circleMarker(
+                [41.924161029067626, -87.64638036489487],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8122, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_d053bcc1ed7ac4531ffbe321c57f2d4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b373205d9cf56af9e3ac02b7e932a22b = $(`<div id="html_b373205d9cf56af9e3ac02b7e932a22b" style="width: 100.0%; height: 100.0%;">Lincoln Ave & Fullerton Ave: 9061 rides</div>`)[0];
+                popup_d053bcc1ed7ac4531ffbe321c57f2d4a.setContent(html_b373205d9cf56af9e3ac02b7e932a22b);
+            
+        
+
+        circle_marker_7aaf9db2f0625e34213d5eb66ecf93c8.bindPopup(popup_d053bcc1ed7ac4531ffbe321c57f2d4a)
+        ;
+
+        
+    
+    
+            var circle_marker_83a6d47692b25cc5162a877dc33b4c26 = L.circleMarker(
+                [41.842052, -87.617],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7848, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_f2bcf80966cf51d218821be183e5bf5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de91aaca056508a4341f6fe0b5772762 = $(`<div id="html_de91aaca056508a4341f6fe0b5772762" style="width: 100.0%; height: 100.0%;">MLK Jr Dr & 29th St: 8924 rides</div>`)[0];
+                popup_f2bcf80966cf51d218821be183e5bf5b.setContent(html_de91aaca056508a4341f6fe0b5772762);
+            
+        
+
+        circle_marker_83a6d47692b25cc5162a877dc33b4c26.bindPopup(popup_f2bcf80966cf51d218821be183e5bf5b)
+        ;
+
+        
+    
+    
+            var circle_marker_6ac1c4eacd450de9aba748514ae79f0f = L.circleMarker(
+                [41.88602082773, -87.6308760584],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7834, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_2d8d1d155a1c15e65c9fd9afcef4e2dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_705c3f875dcb7192b9378d2d09d85e3f = $(`<div id="html_705c3f875dcb7192b9378d2d09d85e3f" style="width: 100.0%; height: 100.0%;">Clark St & Lake St: 8917 rides</div>`)[0];
+                popup_2d8d1d155a1c15e65c9fd9afcef4e2dc.setContent(html_705c3f875dcb7192b9378d2d09d85e3f);
+            
+        
+
+        circle_marker_6ac1c4eacd450de9aba748514ae79f0f.bindPopup(popup_2d8d1d155a1c15e65c9fd9afcef4e2dc)
+        ;
+
+        
+    
+    
+            var circle_marker_64695fabd36e7addaed32173b22416da = L.circleMarker(
+                [41.8776415962753, -87.64961779117584],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7734, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_8c1169daee64cec50999f244d52fbb94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8833bb3164d036f66c87375019cea8e6 = $(`<div id="html_8833bb3164d036f66c87375019cea8e6" style="width: 100.0%; height: 100.0%;">Peoria St & Jackson Blvd: 8867 rides</div>`)[0];
+                popup_8c1169daee64cec50999f244d52fbb94.setContent(html_8833bb3164d036f66c87375019cea8e6);
+            
+        
+
+        circle_marker_64695fabd36e7addaed32173b22416da.bindPopup(popup_8c1169daee64cec50999f244d52fbb94)
+        ;
+
+        
+    
+    
+            var circle_marker_5d2bdf7e5a1f47f2d74b85e4adecde09 = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.329, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_2103b3d547571fa816c6752ab495bf7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8554114df3c3d8dcf671d89ad4685955 = $(`<div id="html_8554114df3c3d8dcf671d89ad4685955" style="width: 100.0%; height: 100.0%;">Streeter Dr & Grand Ave: 36645 rides</div>`)[0];
+                popup_2103b3d547571fa816c6752ab495bf7d.setContent(html_8554114df3c3d8dcf671d89ad4685955);
+            
+        
+
+        circle_marker_5d2bdf7e5a1f47f2d74b85e4adecde09.bindPopup(popup_2103b3d547571fa816c6752ab495bf7d)
+        ;
+
+        
+    
+    
+            var circle_marker_8d5b58dc0ad9cd5f2360e39b64c9a135 = L.circleMarker(
+                [41.880958, -87.616743],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0574, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_56f4f57a5468b6eabf576262048d7c79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2880bfc219ebfb0edef4d2e0b97cf80 = $(`<div id="html_b2880bfc219ebfb0edef4d2e0b97cf80" style="width: 100.0%; height: 100.0%;">DuSable Lake Shore Dr & Monroe St: 25287 rides</div>`)[0];
+                popup_56f4f57a5468b6eabf576262048d7c79.setContent(html_b2880bfc219ebfb0edef4d2e0b97cf80);
+            
+        
+
+        circle_marker_8d5b58dc0ad9cd5f2360e39b64c9a135.bindPopup(popup_56f4f57a5468b6eabf576262048d7c79)
+        ;
+
+        
+    
+    
+            var circle_marker_e06a533029af3de2bebe000c9ae1364b = L.circleMarker(
+                [41.90096039, -87.62377664],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4144, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_b78b910599db04a047cba77a6d3c62e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4329dc12760c54456f3a378a2ef9437f = $(`<div id="html_4329dc12760c54456f3a378a2ef9437f" style="width: 100.0%; height: 100.0%;">Michigan Ave & Oak St: 17072 rides</div>`)[0];
+                popup_b78b910599db04a047cba77a6d3c62e1.setContent(html_4329dc12760c54456f3a378a2ef9437f);
+            
+        
+
+        circle_marker_e06a533029af3de2bebe000c9ae1364b.bindPopup(popup_b78b910599db04a047cba77a6d3c62e1)
+        ;
+
+        
+    
+    
+            var circle_marker_2dd61b3f2486ba270c4273405eb6fead = L.circleMarker(
+                [41.8810317, -87.62408432],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2342, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_12e048c050c20e986225abee215d1973 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86fd6ad1bb69944fcd8c9b9c99130b33 = $(`<div id="html_86fd6ad1bb69944fcd8c9b9c99130b33" style="width: 100.0%; height: 100.0%;">Millennium Park: 16171 rides</div>`)[0];
+                popup_12e048c050c20e986225abee215d1973.setContent(html_86fd6ad1bb69944fcd8c9b9c99130b33);
+            
+        
+
+        circle_marker_2dd61b3f2486ba270c4273405eb6fead.bindPopup(popup_12e048c050c20e986225abee215d1973)
+        ;
+
+        
+    
+    
+            var circle_marker_5c1fbe4701e378b47a7cb2f8da037c5c = L.circleMarker(
+                [41.911722, -87.626804],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.184, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_dfa9859adc390e4577a14052c9694dfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c8ed35102a8500a44bddc43c73ed786 = $(`<div id="html_0c8ed35102a8500a44bddc43c73ed786" style="width: 100.0%; height: 100.0%;">DuSable Lake Shore Dr & North Blvd: 15920 rides</div>`)[0];
+                popup_dfa9859adc390e4577a14052c9694dfb.setContent(html_0c8ed35102a8500a44bddc43c73ed786);
+            
+        
+
+        circle_marker_5c1fbe4701e378b47a7cb2f8da037c5c.bindPopup(popup_dfa9859adc390e4577a14052c9694dfb)
+        ;
+
+        
+    
+    
+            var circle_marker_2f0ebca4b64a07f4b8658f1b9d604cb6 = L.circleMarker(
+                [41.86722595682, -87.6153553902],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.979, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_84a81785453ea0137e0040f8749767c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e12dc0d8dd4a278d0c4e115705d1e193 = $(`<div id="html_e12dc0d8dd4a278d0c4e115705d1e193" style="width: 100.0%; height: 100.0%;">Shedd Aquarium: 14895 rides</div>`)[0];
+                popup_84a81785453ea0137e0040f8749767c3.setContent(html_e12dc0d8dd4a278d0c4e115705d1e193);
+            
+        
+
+        circle_marker_2f0ebca4b64a07f4b8658f1b9d604cb6.bindPopup(popup_84a81785453ea0137e0040f8749767c3)
+        ;
+
+        
+    
+    
+            var circle_marker_bcb96c354f73567b065786e4ac61cee4 = L.circleMarker(
+                [41.886976, -87.612813],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.5634, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_aa277fd20e46d885cf6c0c9c44ba1587 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f9fe1bb290191bf236aba6ac49c5ffc = $(`<div id="html_2f9fe1bb290191bf236aba6ac49c5ffc" style="width: 100.0%; height: 100.0%;">Dusable Harbor: 12817 rides</div>`)[0];
+                popup_aa277fd20e46d885cf6c0c9c44ba1587.setContent(html_2f9fe1bb290191bf236aba6ac49c5ffc);
+            
+        
+
+        circle_marker_bcb96c354f73567b065786e4ac61cee4.bindPopup(popup_aa277fd20e46d885cf6c0c9c44ba1587)
+        ;
+
+        
+    
+    
+            var circle_marker_0d85edec7ccf9c2e56e16abda87a2dcf = L.circleMarker(
+                [41.926277, -87.630834],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.307, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_744616f0f79cb60d1ae96437df34f8cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f05fc35132d2af46c5d10f2535272156 = $(`<div id="html_f05fc35132d2af46c5d10f2535272156" style="width: 100.0%; height: 100.0%;">Theater on the Lake: 11535 rides</div>`)[0];
+                popup_744616f0f79cb60d1ae96437df34f8cb.setContent(html_f05fc35132d2af46c5d10f2535272156);
+            
+        
+
+        circle_marker_0d85edec7ccf9c2e56e16abda87a2dcf.bindPopup(popup_744616f0f79cb60d1ae96437df34f8cb)
+        ;
+
+        
+    
+    
+            var circle_marker_ff34ee5c4c8513332bf1753a7c7847ac = L.circleMarker(
+                [41.872773, -87.623981],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.001, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_c7c70afbcbc18c767f9e262df07667ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6b27d899147496dee2bb96e834eb117 = $(`<div id="html_d6b27d899147496dee2bb96e834eb117" style="width: 100.0%; height: 100.0%;">Michigan Ave & 8th St: 10005 rides</div>`)[0];
+                popup_c7c70afbcbc18c767f9e262df07667ce.setContent(html_d6b27d899147496dee2bb96e834eb117);
+            
+        
+
+        circle_marker_ff34ee5c4c8513332bf1753a7c7847ac.bindPopup(popup_c7c70afbcbc18c767f9e262df07667ce)
+        ;
+
+        
+    
+    
+            var circle_marker_441cd116b03b70b4ed4a3d77309884db = L.circleMarker(
+                [41.866095, -87.607267],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8042, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_f6b83f1d385b1842b4af620cc4732edb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20e925219904a3e1590925028974f9a8 = $(`<div id="html_20e925219904a3e1590925028974f9a8" style="width: 100.0%; height: 100.0%;">Adler Planetarium: 9021 rides</div>`)[0];
+                popup_f6b83f1d385b1842b4af620cc4732edb.setContent(html_20e925219904a3e1590925028974f9a8);
+            
+        
+
+        circle_marker_441cd116b03b70b4ed4a3d77309884db.bindPopup(popup_f6b83f1d385b1842b4af620cc4732edb)
+        ;
+
+        
+    
+    
+            var circle_marker_e9ab87f779f7fd50cdffbe5a7b5dad92 = L.circleMarker(
+                [41.867888, -87.623041],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.741, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_1cbcd8a1500b71cfa2d07da0147459f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7dbc8517b6c5734e4a32151ba8fa8a1e = $(`<div id="html_7dbc8517b6c5734e4a32151ba8fa8a1e" style="width: 100.0%; height: 100.0%;">Indiana Ave & Roosevelt Rd: 8705 rides</div>`)[0];
+                popup_1cbcd8a1500b71cfa2d07da0147459f7.setContent(html_7dbc8517b6c5734e4a32151ba8fa8a1e);
+            
+        
+
+        circle_marker_e9ab87f779f7fd50cdffbe5a7b5dad92.bindPopup(popup_1cbcd8a1500b71cfa2d07da0147459f7)
+        ;
+
+        
+    
+    
+            var circle_marker_faf6c4f6e92ea679f5713776c81992ec = L.circleMarker(
+                [41.912133, -87.634656],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5482, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_8699406178f9c0a8c0f759574476294c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49ad3d30fd1e03624488ed8bef42ec75 = $(`<div id="html_49ad3d30fd1e03624488ed8bef42ec75" style="width: 100.0%; height: 100.0%;">Wells St & Concord Ln: 7741 rides</div>`)[0];
+                popup_8699406178f9c0a8c0f759574476294c.setContent(html_49ad3d30fd1e03624488ed8bef42ec75);
+            
+        
+
+        circle_marker_faf6c4f6e92ea679f5713776c81992ec.bindPopup(popup_8699406178f9c0a8c0f759574476294c)
+        ;
+
+        
+    
+    
+            var circle_marker_9618667364e03162f29adf4ef0cbde28 = L.circleMarker(
+                [41.963982, -87.638181],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5188, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_ffdd86b280cc83c8d4bdd627805c0c4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d12effe523da6d3761ad63160aa4cc10 = $(`<div id="html_d12effe523da6d3761ad63160aa4cc10" style="width: 100.0%; height: 100.0%;">Montrose Harbor: 7594 rides</div>`)[0];
+                popup_ffdd86b280cc83c8d4bdd627805c0c4a.setContent(html_d12effe523da6d3761ad63160aa4cc10);
+            
+        
+
+        circle_marker_9618667364e03162f29adf4ef0cbde28.bindPopup(popup_ffdd86b280cc83c8d4bdd627805c0c4a)
+        ;
+
+        
+    
+    
+            var circle_marker_5c67b82ab15ac6943a682f5e9d84292a = L.circleMarker(
+                [41.918306, -87.636282],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5072, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_f7c50e2517af2eb30eaa2812f8cafca9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5ada472d4586591e8c609358aca6223 = $(`<div id="html_a5ada472d4586591e8c609358aca6223" style="width: 100.0%; height: 100.0%;">Clark St & Armitage Ave: 7536 rides</div>`)[0];
+                popup_f7c50e2517af2eb30eaa2812f8cafca9.setContent(html_a5ada472d4586591e8c609358aca6223);
+            
+        
+
+        circle_marker_5c67b82ab15ac6943a682f5e9d84292a.bindPopup(popup_f7c50e2517af2eb30eaa2812f8cafca9)
+        ;
+
+        
+    
+    
+            var circle_marker_18eff774ed8bd8cf96923bc1f02b09c4 = L.circleMarker(
+                [41.891466, -87.626761],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4892, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_1d869a25edccacc73d272579a71da264 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e558ef3377c9431b2313b2ceac122593 = $(`<div id="html_e558ef3377c9431b2313b2ceac122593" style="width: 100.0%; height: 100.0%;">Wabash Ave & Grand Ave: 7446 rides</div>`)[0];
+                popup_1d869a25edccacc73d272579a71da264.setContent(html_e558ef3377c9431b2313b2ceac122593);
+            
+        
+
+        circle_marker_18eff774ed8bd8cf96923bc1f02b09c4.bindPopup(popup_1d869a25edccacc73d272579a71da264)
+        ;
+
+        
+    
+    
+            var circle_marker_9a9fe888fdffc0652dfcdff8904e9a97 = L.circleMarker(
+                [41.902973, -87.63128],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4734, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_625b52fd5a816cadf43be6fd28f88246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a76ae04ee0d617165d69094183eace4c = $(`<div id="html_a76ae04ee0d617165d69094183eace4c" style="width: 100.0%; height: 100.0%;">Clark St & Elm St: 7367 rides</div>`)[0];
+                popup_625b52fd5a816cadf43be6fd28f88246.setContent(html_a76ae04ee0d617165d69094183eace4c);
+            
+        
+
+        circle_marker_9a9fe888fdffc0652dfcdff8904e9a97.bindPopup(popup_625b52fd5a816cadf43be6fd28f88246)
+        ;
+
+        
+    
+    
+            var circle_marker_a5d5ccea3cbd40cd0933a8270acd583d = L.circleMarker(
+                [41.8839840647265, -87.6246839761734],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4692, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_42ca5c596ae0cec60d698153b78cb340 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43a44b3ec0412812d7bd6e1b1892a4df = $(`<div id="html_43a44b3ec0412812d7bd6e1b1892a4df" style="width: 100.0%; height: 100.0%;">Michigan Ave & Washington St: 7346 rides</div>`)[0];
+                popup_42ca5c596ae0cec60d698153b78cb340.setContent(html_43a44b3ec0412812d7bd6e1b1892a4df);
+            
+        
+
+        circle_marker_a5d5ccea3cbd40cd0933a8270acd583d.bindPopup(popup_42ca5c596ae0cec60d698153b78cb340)
+        ;
+
+        
+    
+    
+            var circle_marker_655e5827d9a92399a854b9e4c067d4eb = L.circleMarker(
+                [41.915689, -87.6346],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4444, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_b648289a8b1ec94b79d9c3175ea1a7a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_479d1fc58c22016b18dae8555663a008 = $(`<div id="html_479d1fc58c22016b18dae8555663a008" style="width: 100.0%; height: 100.0%;">Clark St & Lincoln Ave: 7222 rides</div>`)[0];
+                popup_b648289a8b1ec94b79d9c3175ea1a7a2.setContent(html_479d1fc58c22016b18dae8555663a008);
+            
+        
+
+        circle_marker_655e5827d9a92399a854b9e4c067d4eb.bindPopup(popup_b648289a8b1ec94b79d9c3175ea1a7a2)
+        ;
+
+        
+    
+    
+            var circle_marker_4172cd6560bae0a20fc158f832e5da2a = L.circleMarker(
+                [41.89084704062381, -87.61861681938171],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4422, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_fc37ce95d314e6b4e88872a7f56b55ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_571d1715782fe5f4accb151ba5ad7efd = $(`<div id="html_571d1715782fe5f4accb151ba5ad7efd" style="width: 100.0%; height: 100.0%;">New St & Illinois St: 7211 rides</div>`)[0];
+                popup_fc37ce95d314e6b4e88872a7f56b55ff.setContent(html_571d1715782fe5f4accb151ba5ad7efd);
+            
+        
+
+        circle_marker_4172cd6560bae0a20fc158f832e5da2a.bindPopup(popup_fc37ce95d314e6b4e88872a7f56b55ff)
+        ;
+
+        
+    
+    
+            var circle_marker_7ff82bb4246eb515783aaa3159626e3c = L.circleMarker(
+                [41.865312, -87.617867],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4282, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_9d01207208c34ac156f243a08c2e472a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43785c0ed134b704ee568dfb2e5ab373 = $(`<div id="html_43785c0ed134b704ee568dfb2e5ab373" style="width: 100.0%; height: 100.0%;">Field Museum: 7141 rides</div>`)[0];
+                popup_9d01207208c34ac156f243a08c2e472a.setContent(html_43785c0ed134b704ee568dfb2e5ab373);
+            
+        
+
+        circle_marker_7ff82bb4246eb515783aaa3159626e3c.bindPopup(popup_9d01207208c34ac156f243a08c2e472a)
+        ;
+
+        
+    
+    
+            var circle_marker_70d000103fc52e97b7a4d3cb6e8f0d32 = L.circleMarker(
+                [41.88917683258, -87.6385057718],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3678, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_282ade33ff61126ad63aaccd3e4ac6e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d26353566d817ebb9586202554a43c24 = $(`<div id="html_d26353566d817ebb9586202554a43c24" style="width: 100.0%; height: 100.0%;">Kingsbury St & Kinzie St: 6839 rides</div>`)[0];
+                popup_282ade33ff61126ad63aaccd3e4ac6e7.setContent(html_d26353566d817ebb9586202554a43c24);
+            
+        
+
+        circle_marker_70d000103fc52e97b7a4d3cb6e8f0d32.bindPopup(popup_282ade33ff61126ad63aaccd3e4ac6e7)
+        ;
+
+        
+    
+    
+            var circle_marker_5cca3c99ec43c536babeaaad5cf8d3e1 = L.circleMarker(
+                [41.903222, -87.634324],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3436, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_258ddcf65aa93411f7d4911a2505ea22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e21f8cfcfa588efe299fe2f5e23d8e0e = $(`<div id="html_e21f8cfcfa588efe299fe2f5e23d8e0e" style="width: 100.0%; height: 100.0%;">Wells St & Elm St: 6718 rides</div>`)[0];
+                popup_258ddcf65aa93411f7d4911a2505ea22.setContent(html_e21f8cfcfa588efe299fe2f5e23d8e0e);
+            
+        
+
+        circle_marker_5cca3c99ec43c536babeaaad5cf8d3e1.bindPopup(popup_258ddcf65aa93411f7d4911a2505ea22)
+        ;
+
+        
+    
+    
+            var circle_marker_9d8db3164c60d48ffb1d2f9c27705cdb = L.circleMarker(
+                [41.890762, -87.631697],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3414, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_d0b37515d7f4086b9260f7b2ba8b2389 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d567f29a0b1b809b4671e2c5bdc1d0a3 = $(`<div id="html_d567f29a0b1b809b4671e2c5bdc1d0a3" style="width: 100.0%; height: 100.0%;">LaSalle St & Illinois St: 6707 rides</div>`)[0];
+                popup_d0b37515d7f4086b9260f7b2ba8b2389.setContent(html_d567f29a0b1b809b4671e2c5bdc1d0a3);
+            
+        
+
+        circle_marker_9d8db3164c60d48ffb1d2f9c27705cdb.bindPopup(popup_d0b37515d7f4086b9260f7b2ba8b2389)
+        ;
+
+        
+    
+    
+            var circle_marker_93a1bef74833b5d4a2dbee97b7673e80 = L.circleMarker(
+                [41.886022, -87.624398],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2978, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_6b314947a5b301e2a62eae968985b46f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_691dd900bc8ac366806270e1f4b2d691 = $(`<div id="html_691dd900bc8ac366806270e1f4b2d691" style="width: 100.0%; height: 100.0%;">Michigan Ave & Lake St: 6489 rides</div>`)[0];
+                popup_6b314947a5b301e2a62eae968985b46f.setContent(html_691dd900bc8ac366806270e1f4b2d691);
+            
+        
+
+        circle_marker_93a1bef74833b5d4a2dbee97b7673e80.bindPopup(popup_6b314947a5b301e2a62eae968985b46f)
+        ;
+
+        
+    
+    
+            var circle_marker_c78470bb9732f7ca541fa7fbae133d4f = L.circleMarker(
+                [41.884728, -87.619521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2424, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_d9f68f6fea059a9abfb4f75e1e3190ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaa1e62e05368a5a128af4334fcb1181 = $(`<div id="html_aaa1e62e05368a5a128af4334fcb1181" style="width: 100.0%; height: 100.0%;">Columbus Dr & Randolph St: 6212 rides</div>`)[0];
+                popup_d9f68f6fea059a9abfb4f75e1e3190ee.setContent(html_aaa1e62e05368a5a128af4334fcb1181);
+            
+        
+
+        circle_marker_c78470bb9732f7ca541fa7fbae133d4f.bindPopup(popup_d9f68f6fea059a9abfb4f75e1e3190ee)
+        ;
+
+        
+    
+    
+            var circle_marker_ed2ae2563a1a3dcbe6c0ead4f97ee36b = L.circleMarker(
+                [41.932588, -87.636427],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.173, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_3f592fd014fe2e6558a152d1ed0016d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e47467eb270ca02e879a45daa79a05df = $(`<div id="html_e47467eb270ca02e879a45daa79a05df" style="width: 100.0%; height: 100.0%;">DuSable Lake Shore Dr & Diversey Pkwy: 5865 rides</div>`)[0];
+                popup_3f592fd014fe2e6558a152d1ed0016d1.setContent(html_e47467eb270ca02e879a45daa79a05df);
+            
+        
+
+        circle_marker_ed2ae2563a1a3dcbe6c0ead4f97ee36b.bindPopup(popup_3f592fd014fe2e6558a152d1ed0016d1)
+        ;
+
+        
+    
+    
+            var circle_marker_590f827e4abe16a30a5b9bb39d1ef09c = L.circleMarker(
+                [41.894722, -87.634362],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1672, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_b85b14f82a8c6c9246e68683e2806651 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f91e0e28d962b0b9a62f04cf120e5577 = $(`<div id="html_f91e0e28d962b0b9a62f04cf120e5577" style="width: 100.0%; height: 100.0%;">Wells St & Huron St: 5836 rides</div>`)[0];
+                popup_b85b14f82a8c6c9246e68683e2806651.setContent(html_f91e0e28d962b0b9a62f04cf120e5577);
+            
+        
+
+        circle_marker_590f827e4abe16a30a5b9bb39d1ef09c.bindPopup(popup_b85b14f82a8c6c9246e68683e2806651)
+        ;
+
+        
+    
+    
+            var circle_marker_6a6fd125609f147c3d930afcef37ccb8 = L.circleMarker(
+                [41.892592119709725, -87.61728912591934],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.167, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_4b979832c0e8f0202ee0c0cecd32c6ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc322cb1741a4279c2e658d77306ceed = $(`<div id="html_cc322cb1741a4279c2e658d77306ceed" style="width: 100.0%; height: 100.0%;">McClurg Ct & Ohio St: 5835 rides</div>`)[0];
+                popup_4b979832c0e8f0202ee0c0cecd32c6ea.setContent(html_cc322cb1741a4279c2e658d77306ceed);
+            
+        
+
+        circle_marker_6a6fd125609f147c3d930afcef37ccb8.bindPopup(popup_4b979832c0e8f0202ee0c0cecd32c6ea)
+        ;
+
+        
+    
+    
+            var circle_marker_e1219935a93ce2e79c6867bc83054b77 = L.circleMarker(
+                [41.893992, -87.629318],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1384, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_27e31060f76db8979a5a5bfaa3aadac6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_056242e50eca0540b7ade351a4d0ff4c = $(`<div id="html_056242e50eca0540b7ade351a4d0ff4c" style="width: 100.0%; height: 100.0%;">Dearborn St & Erie St: 5692 rides</div>`)[0];
+                popup_27e31060f76db8979a5a5bfaa3aadac6.setContent(html_056242e50eca0540b7ade351a4d0ff4c);
+            
+        
+
+        circle_marker_e1219935a93ce2e79c6867bc83054b77.bindPopup(popup_27e31060f76db8979a5a5bfaa3aadac6)
+        ;
+
+        
+    
+    
+            var circle_marker_0d790e779a8224a00a9fc98fbe7056a7 = L.circleMarker(
+                [41.882751965685614, -87.64119029045105],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1088, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_0fed838e5684b538e4d74fb42984cc95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4538c257551fcbbe6c8c2c900fdc46e4 = $(`<div id="html_4538c257551fcbbe6c8c2c900fdc46e4" style="width: 100.0%; height: 100.0%;">Clinton St & Madison St: 5544 rides</div>`)[0];
+                popup_0fed838e5684b538e4d74fb42984cc95.setContent(html_4538c257551fcbbe6c8c2c900fdc46e4);
+            
+        
+
+        circle_marker_0d790e779a8224a00a9fc98fbe7056a7.bindPopup(popup_0fed838e5684b538e4d74fb42984cc95)
+        ;
+
+        
+    
+    
+            var circle_marker_a60e2d06ce3c32af0fb1d84cab8d05dc = L.circleMarker(
+                [41.89661720040753, -87.62857854366302],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0922, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_5af104dc0104293e43e07f7900160deb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e33b538e4d8fb0e3de964f8b450ea46 = $(`<div id="html_2e33b538e4d8fb0e3de964f8b450ea46" style="width: 100.0%; height: 100.0%;">State St & Chicago Ave: 5461 rides</div>`)[0];
+                popup_5af104dc0104293e43e07f7900160deb.setContent(html_2e33b538e4d8fb0e3de964f8b450ea46);
+            
+        
+
+        circle_marker_a60e2d06ce3c32af0fb1d84cab8d05dc.bindPopup(popup_5af104dc0104293e43e07f7900160deb)
+        ;
+
+        
+    
+    
+            var circle_marker_8e313fdcb36f00f8085127ae85c36b55 = L.circleMarker(
+                [41.940231918108594, -87.65294373035431],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0872, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_35d5e6f84669f3da31c2aafb78ca462f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdd618ca0f2616ff3e16ee1723f304c8 = $(`<div id="html_bdd618ca0f2616ff3e16ee1723f304c8" style="width: 100.0%; height: 100.0%;">Wilton Ave & Belmont Ave: 5436 rides</div>`)[0];
+                popup_35d5e6f84669f3da31c2aafb78ca462f.setContent(html_bdd618ca0f2616ff3e16ee1723f304c8);
+            
+        
+
+        circle_marker_8e313fdcb36f00f8085127ae85c36b55.bindPopup(popup_35d5e6f84669f3da31c2aafb78ca462f)
+        ;
+
+        
+    
+    
+            var circle_marker_bca334b0a80d90f054607f68f4186a66 = L.circleMarker(
+                [41.940775, -87.639192],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0808, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_c6e1f3b51a4d85d74975756a780182cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_092e60efd38d576b65dc6c1b8901b72d = $(`<div id="html_092e60efd38d576b65dc6c1b8901b72d" style="width: 100.0%; height: 100.0%;">DuSable Lake Shore Dr & Belmont Ave: 5404 rides</div>`)[0];
+                popup_c6e1f3b51a4d85d74975756a780182cd.setContent(html_092e60efd38d576b65dc6c1b8901b72d);
+            
+        
+
+        circle_marker_bca334b0a80d90f054607f68f4186a66.bindPopup(popup_c6e1f3b51a4d85d74975756a780182cd)
+        ;
+
+        
+    
+    
+            var circle_marker_cb9192cceb48fdda8d958ef42bad5218 = L.circleMarker(
+                [41.889906, -87.634266],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0506, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_d67c902a34410f397f094b7ed7d5ffc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9877303f703c1836de1575b5cefd02f = $(`<div id="html_f9877303f703c1836de1575b5cefd02f" style="width: 100.0%; height: 100.0%;">Wells St & Hubbard St: 5253 rides</div>`)[0];
+                popup_d67c902a34410f397f094b7ed7d5ffc4.setContent(html_f9877303f703c1836de1575b5cefd02f);
+            
+        
+
+        circle_marker_cb9192cceb48fdda8d958ef42bad5218.bindPopup(popup_d67c902a34410f397f094b7ed7d5ffc4)
+        ;
+
+        
+    
+    
+            var circle_marker_774576e933ccd04932abedc984b20def = L.circleMarker(
+                [41.898969, -87.629912],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0396, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_c7230e73aa088b2b870723bdbd9e417d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60115279f9414f924ed93e8c46b181da = $(`<div id="html_60115279f9414f924ed93e8c46b181da" style="width: 100.0%; height: 100.0%;">Dearborn Pkwy & Delaware Pl: 5198 rides</div>`)[0];
+                popup_c7230e73aa088b2b870723bdbd9e417d.setContent(html_60115279f9414f924ed93e8c46b181da);
+            
+        
+
+        circle_marker_774576e933ccd04932abedc984b20def.bindPopup(popup_c7230e73aa088b2b870723bdbd9e417d)
+        ;
+
+        
+    
+    
+            var circle_marker_7743b7829108d5f21bd945f27c3e694c = L.circleMarker(
+                [41.867227, -87.625961],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0338, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_a0a2994e317e02172693e24298233c34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0168f03ff73d7b84aa6048f2b3594f20 = $(`<div id="html_0168f03ff73d7b84aa6048f2b3594f20" style="width: 100.0%; height: 100.0%;">Wabash Ave & Roosevelt Rd: 5169 rides</div>`)[0];
+                popup_a0a2994e317e02172693e24298233c34.setContent(html_0168f03ff73d7b84aa6048f2b3594f20);
+            
+        
+
+        circle_marker_7743b7829108d5f21bd945f27c3e694c.bindPopup(popup_a0a2994e317e02172693e24298233c34)
+        ;
+
+        
+    
+    
+            var circle_marker_dcd76fda72294a3ee6c14fc1155eb63a = L.circleMarker(
+                [41.92393131136619, -87.63582453131676],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0114, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_4ca0c3d11a79837b65da0d492cdce7b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_152e415a7511ee3bcd232cd286157d63 = $(`<div id="html_152e415a7511ee3bcd232cd286157d63" style="width: 100.0%; height: 100.0%;">Lincoln Park Conservatory: 5057 rides</div>`)[0];
+                popup_4ca0c3d11a79837b65da0d492cdce7b7.setContent(html_152e415a7511ee3bcd232cd286157d63);
+            
+        
+
+        circle_marker_dcd76fda72294a3ee6c14fc1155eb63a.bindPopup(popup_4ca0c3d11a79837b65da0d492cdce7b7)
+        ;
+
+        
+    
+    
+            var circle_marker_67328225f611ec49bf0e09551f3d59b2 = L.circleMarker(
+                [41.890573, -87.622072],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0092, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_38bfba070b594bffc7148b4c633699d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e57ebe0fe10a4336df6526cff802ec3b = $(`<div id="html_e57ebe0fe10a4336df6526cff802ec3b" style="width: 100.0%; height: 100.0%;">Cityfront Plaza Dr & Pioneer Ct: 5046 rides</div>`)[0];
+                popup_38bfba070b594bffc7148b4c633699d7.setContent(html_e57ebe0fe10a4336df6526cff802ec3b);
+            
+        
+
+        circle_marker_67328225f611ec49bf0e09551f3d59b2.bindPopup(popup_38bfba070b594bffc7148b4c633699d7)
+        ;
+
+        
+    
+    
+            var circle_marker_8acee57f4746cfc7b36cab54142ce9e9 = L.circleMarker(
+                [41.882409, -87.639767],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0022, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_a12d6227c4278fa800290c4672367221 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f21e8ce5a4c81775ef16cfe8c7dcd163 = $(`<div id="html_f21e8ce5a4c81775ef16cfe8c7dcd163" style="width: 100.0%; height: 100.0%;">Canal St & Madison St: 5011 rides</div>`)[0];
+                popup_a12d6227c4278fa800290c4672367221.setContent(html_f21e8ce5a4c81775ef16cfe8c7dcd163);
+            
+        
+
+        circle_marker_8acee57f4746cfc7b36cab54142ce9e9.bindPopup(popup_a12d6227c4278fa800290c4672367221)
+        ;
+
+        
+    
+    
+            var circle_marker_dd536e173a9e9426f16d633a39f7f88d = L.circleMarker(
+                [41.886871, -87.648089],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.988, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_fd9695aeea99d270a550cccb468e1086 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_689f09321883366f56729b79a0b16458 = $(`<div id="html_689f09321883366f56729b79a0b16458" style="width: 100.0%; height: 100.0%;">Halsted St & Fulton St: 4940 rides</div>`)[0];
+                popup_fd9695aeea99d270a550cccb468e1086.setContent(html_689f09321883366f56729b79a0b16458);
+            
+        
+
+        circle_marker_dd536e173a9e9426f16d633a39f7f88d.bindPopup(popup_fd9695aeea99d270a550cccb468e1086)
+        ;
+
+        
+    
+    
+            var circle_marker_11f92c2f2cba67af553837be7e5511c4 = L.circleMarker(
+                [41.89184737210993, -87.62058019638062],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9788, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_c6cf9965509e8dfeb8745038850c08c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69ea8ef10093eee39976b3bab3626c59 = $(`<div id="html_69ea8ef10093eee39976b3bab3626c59" style="width: 100.0%; height: 100.0%;">Fairbanks Ct & Grand Ave: 4894 rides</div>`)[0];
+                popup_c6cf9965509e8dfeb8745038850c08c3.setContent(html_69ea8ef10093eee39976b3bab3626c59);
+            
+        
+
+        circle_marker_11f92c2f2cba67af553837be7e5511c4.bindPopup(popup_c6cf9965509e8dfeb8745038850c08c3)
+        ;
+
+        
+    
+    
+            var circle_marker_83ec5b76019205c0ec3760f0aacdc76f = L.circleMarker(
+                [41.9366884494997, -87.63682901859283],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9736, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_ab5ba552f17f4589f807387740763c6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0f9dc19fa704192eaef91aac83c82f3 = $(`<div id="html_d0f9dc19fa704192eaef91aac83c82f3" style="width: 100.0%; height: 100.0%;">DuSable Lake Shore Dr & Wellington Ave: 4868 rides</div>`)[0];
+                popup_ab5ba552f17f4589f807387740763c6b.setContent(html_d0f9dc19fa704192eaef91aac83c82f3);
+            
+        
+
+        circle_marker_83ec5b76019205c0ec3760f0aacdc76f.bindPopup(popup_ab5ba552f17f4589f807387740763c6b)
+        ;
+
+        
+    
+    
+            var circle_marker_4d5f02655f173fc46a001d89ba4f1871 = L.circleMarker(
+                [41.925858, -87.638973],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9686, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_f69781ff6645d991e8eca05e75f9b4ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8667d053c79669e72c3737d3c727761e = $(`<div id="html_8667d053c79669e72c3737d3c727761e" style="width: 100.0%; height: 100.0%;">Lakeview Ave & Fullerton Pkwy: 4843 rides</div>`)[0];
+                popup_f69781ff6645d991e8eca05e75f9b4ba.setContent(html_8667d053c79669e72c3737d3c727761e);
+            
+        
+
+        circle_marker_4d5f02655f173fc46a001d89ba4f1871.bindPopup(popup_f69781ff6645d991e8eca05e75f9b4ba)
+        ;
+
+        
+    
+    
+            var circle_marker_d1bff743cb1c9e2a092f8097518d1d4d = L.circleMarker(
+                [41.888716036, -87.6444478533],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.966, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_f1ccbf23bab69ea4e93c77ce89b49538 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1092596bfce91736ed67df1da4bf9c4 = $(`<div id="html_e1092596bfce91736ed67df1da4bf9c4" style="width: 100.0%; height: 100.0%;">Desplaines St & Kinzie St: 4830 rides</div>`)[0];
+                popup_f1ccbf23bab69ea4e93c77ce89b49538.setContent(html_e1092596bfce91736ed67df1da4bf9c4);
+            
+        
+
+        circle_marker_d1bff743cb1c9e2a092f8097518d1d4d.bindPopup(popup_f1ccbf23bab69ea4e93c77ce89b49538)
+        ;
+
+        
+    
+    
+            var circle_marker_64f27aff643bea981df7e00728e58037 = L.circleMarker(
+                [41.906724, -87.63483],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.962, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_0c2444057be21bc05974027b73e04476 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7c2d505a2215a448839da8e38be4f82 = $(`<div id="html_a7c2d505a2215a448839da8e38be4f82" style="width: 100.0%; height: 100.0%;">Wells St & Evergreen Ave: 4810 rides</div>`)[0];
+                popup_0c2444057be21bc05974027b73e04476.setContent(html_a7c2d505a2215a448839da8e38be4f82);
+            
+        
+
+        circle_marker_64f27aff643bea981df7e00728e58037.bindPopup(popup_0c2444057be21bc05974027b73e04476)
+        ;
+
+        
+    
+    
+            var circle_marker_b5df8427845ffe91b0179bbbec7cff8e = L.circleMarker(
+                [41.886875, -87.62603],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9524, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_9b9354733f351b25e762a0eda629facd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9d1a1ac249b82b040035e4461c24d5e = $(`<div id="html_f9d1a1ac249b82b040035e4461c24d5e" style="width: 100.0%; height: 100.0%;">Wabash Ave & Wacker Pl: 4762 rides</div>`)[0];
+                popup_9b9354733f351b25e762a0eda629facd.setContent(html_f9d1a1ac249b82b040035e4461c24d5e);
+            
+        
+
+        circle_marker_b5df8427845ffe91b0179bbbec7cff8e.bindPopup(popup_9b9354733f351b25e762a0eda629facd)
+        ;
+
+        
+    
+    
+            var circle_marker_3f07c6b57373353f8f10683ffbf6c8bf = L.circleMarker(
+                [41.93758231600629, -87.6440978050232],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9484, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_8cf3515c539ad7c56c6083a127ae994c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f51350716eb188b4f5ffe615c7df287 = $(`<div id="html_0f51350716eb188b4f5ffe615c7df287" style="width: 100.0%; height: 100.0%;">Broadway & Barry Ave: 4742 rides</div>`)[0];
+                popup_8cf3515c539ad7c56c6083a127ae994c.setContent(html_0f51350716eb188b4f5ffe615c7df287);
+            
+        
+
+        circle_marker_3f07c6b57373353f8f10683ffbf6c8bf.bindPopup(popup_8cf3515c539ad7c56c6083a127ae994c)
+        ;
+
+        
+    
+    
+            var circle_marker_22553b367d7f87728fcd542db670919a = L.circleMarker(
+                [41.921822, -87.64414],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9382, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_f91e74d2d254bfa51ec80a3575d02f6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6db8fcae0efc6e033888c28b476a2e75 = $(`<div id="html_6db8fcae0efc6e033888c28b476a2e75" style="width: 100.0%; height: 100.0%;">Larrabee St & Webster Ave: 4691 rides</div>`)[0];
+                popup_f91e74d2d254bfa51ec80a3575d02f6c.setContent(html_6db8fcae0efc6e033888c28b476a2e75);
+            
+        
+
+        circle_marker_22553b367d7f87728fcd542db670919a.bindPopup(popup_f91e74d2d254bfa51ec80a3575d02f6c)
+        ;
+
+        
+    
+    
+            var circle_marker_d22bc46245b92ae771fbd7e5e38b64fb = L.circleMarker(
+                [41.888243, -87.63639],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9204, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_1cbf950c82ec93feb093d10c0eb19a2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20256c55a494a5a2e207d7ddd22ecc93 = $(`<div id="html_20256c55a494a5a2e207d7ddd22ecc93" style="width: 100.0%; height: 100.0%;">Orleans St & Merchandise Mart Plaza: 4602 rides</div>`)[0];
+                popup_1cbf950c82ec93feb093d10c0eb19a2a.setContent(html_20256c55a494a5a2e207d7ddd22ecc93);
+            
+        
+
+        circle_marker_d22bc46245b92ae771fbd7e5e38b64fb.bindPopup(popup_1cbf950c82ec93feb093d10c0eb19a2a)
+        ;
+
+        
+    
+    
+            var circle_marker_c21c3ee0418fd9b597aef2ed1585e4ce = L.circleMarker(
+                [41.94454, -87.654678],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.914, "stroke": true, "weight": 3}
+            ).addTo(map_e227a555fd787950980428f903a5e992);
+        
+    
+        var popup_7dbbb6029f10a4d888bee5a361e493cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ec167aa6c4414535ad77daf2c9f422b = $(`<div id="html_6ec167aa6c4414535ad77daf2c9f422b" style="width: 100.0%; height: 100.0%;">Clark St & Newport St: 4570 rides</div>`)[0];
+                popup_7dbbb6029f10a4d888bee5a361e493cf.setContent(html_6ec167aa6c4414535ad77daf2c9f422b);
+            
+        
+
+        circle_marker_c21c3ee0418fd9b597aef2ed1585e4ce.bindPopup(popup_7dbbb6029f10a4d888bee5a361e493cf)
+        ;
+
+        
+    
+</script>
+</html>

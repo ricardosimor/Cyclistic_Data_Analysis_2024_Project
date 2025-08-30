@@ -37,4 +37,10 @@ import folium
 - **member_casual**: Name of user type (member and casual)
 - **ride_length**: Trip duration (minutes)
 
+## NOTE - RUN MAP VISUALIZATION
+If you want to see the data visualization results regarding the map visualization of Most used locations (Casual & Member). <br>
+Run the `top_locations_map.html` in a browser Or run it on a notebook by doing Trusted Notebook.
+> File -> Trusted Notebook
+
+
 
